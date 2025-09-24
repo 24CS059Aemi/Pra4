@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="page">Portal Page</h1>
+
+    <section class="faq">
+        <h2 class="f1">FAQs</h2>
+        <div class="faq-item">
+            <button class="faq-question">What is DOM?</button>
+            <div class="faq-answer">DOM stands for Document Object Model, used for structuring HTML.</div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">What is Event Handling?</button>
+            <div class="faq-answer">Event handling is managing user interactions like clicks or key presses.</div>
+        </div>
+    </section>
+    <section>
+        <button id="popupBtn">Show Notification</button>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="closePopup">&times;</span>
+                <p>This is a notification popup!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="slider">
+        <h2 class="f1">Image Slider</h2>
+        <div class="slides">
+            <img src="https://cdn.pixabay.com/photo/2023/04/19/09/34/flower-7937334_1280.jpg" class="slide active">
+            <img src="https://th.bing.com/th/id/OIP.T_d6NCF1d0glQoRf3OQ_4gHaEo?w=255&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+            <img src="https://th.bing.com/th/id/OIP.u-0a0SYjgq930SymEB1yFQHaEK?w=334&h=187&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+            <img src="https://th.bing.com/th/id/OIP.i_S0hbC8CqmEJWOITWYXzgHaFj?w=197&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+            <img src="https://th.bing.com/th/id/OIP.Jr0xJezUHHpHp1lnB32o_gHaE7?w=237&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+            <img src="https://th.bing.com/th/id/OIP.itgk2DrYnkwso-R1mQlCvQHaHa?w=184&h=184&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3 " class="slide ">
+            <img src="https://th.bing.com/th/id/OIP.FV87toq0ay8MHrsQA17LIQHaJQ?w=142&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+            <img src="https://th.bing.com/th/id/OIP.VwtpOZKEyNn34UcRx0B4PgHaHa?w=150&h=181&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+            <img src="https://th.bing.com/th/id/OIP.FjJRUsEUrMhYegqOFVwDlgHaEx?w=302&h=194&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+            <img src="https://th.bing.com/th/id/OIP.yPxWe4xcSIknTArAHGHOFQHaNK?w=115&h=180&c=7&r=0&o=7&dpr=1.4&pid=1.7&rm=3" class="slide">
+
+
+
+
+
+        </div>
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </section>
+
+    <script src="script.js "></script>
+</body>
+
+</html>
